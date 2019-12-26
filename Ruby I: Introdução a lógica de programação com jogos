@@ -1,0 +1,10 @@
+Ruby I: Introdução a lógica de programação com jogos
+
+Instalar o ruby 
+sudo apt install ruby
+
+Arquivo com extensão .rb
+
+
+Primeiro comando 
+puts "Ola Mundo!"
