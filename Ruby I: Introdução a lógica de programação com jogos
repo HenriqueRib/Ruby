@@ -8,3 +8,12 @@ Arquivo com extensão .rb
 
 Primeiro comando 
 puts "Ola Mundo!"
+imprime mensagem com uma quebra de linha
+
+nome = gets
+Atribuição de variavel
+
+== compara um valor com o outro
+
+puts chute.to_i == numero_secreto
+.to_i transforma uma variavel em inteiro
