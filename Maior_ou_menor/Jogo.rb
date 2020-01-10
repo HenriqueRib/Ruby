@@ -25,7 +25,8 @@ def pede_numero(chute, tentativa, limite_de_tentativa)
 	end
 	puts "Entre com o numero"
 	chute = gets.strip 
-	puts "Será que acertou? Voçê chutou " + chute
+	system "clear"
+	puts "Será que voçê acertou? Voçê chutou " + chute
 	chute.to_i
 end
 
@@ -33,6 +34,7 @@ def interativo(nome)
 	puts ("Quantas vezes " + nome + " quer tentar?")
 	limite = gets.strip
 	limite_de_tentativa = limite.to_i
+	system "clear"
 	limite_de_tentativa
 end
 
