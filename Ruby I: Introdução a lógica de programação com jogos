@@ -17,3 +17,37 @@ Atribuição de variavel
 
 puts chute.to_i == numero_secreto
 .to_i transforma uma variavel em inteiro
+
+//
+
+EXEMPLO DE FUNÇÃO
+
+def da_boas_vindas
+	puts "Bem vindo ao jogo"
+	puts "Qual o seu nome?"
+	nome = gets
+	puts "\n\n\n"
+	puts "Começaremos o jogo para voce, " + nome
+end
+
+da_boas_vindas
+
+//
+Enconomizar linha
+
+break if verifica_se_acertou numero_secreto, chute
+é igual a 
+	if verifica_se_acertou(numero_secreto, chute)
+		break
+	end
+
+	/
+	puts chuts.size  descobre o valor do Array
+//
+
+chutes[total_de_chutes] = chute
+	total_de_chutes += 1
+	ou 
+	chutes[chutes.size] = chute
+	ou
+	chutes << chute
